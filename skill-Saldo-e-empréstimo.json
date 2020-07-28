@@ -1,0 +1,580 @@
+{
+  "intents": [
+    {
+      "intent": "cancelar",
+      "examples": [
+        {
+          "text": "Até mais"
+        },
+        {
+          "text": "Desisto"
+        },
+        {
+          "text": "Deixa pra lá"
+        },
+        {
+          "text": "Esquece"
+        },
+        {
+          "text": "Depois faço"
+        },
+        {
+          "text": "Tchau"
+        },
+        {
+          "text": "Adeus"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Tipo_produto",
+      "examples": [
+        {
+          "text": "Que produto eu posso ter ai?"
+        },
+        {
+          "text": "vcs têm crédito imobiliário?"
+        },
+        {
+          "text": "O banco tem empréstimo pessoal?"
+        },
+        {
+          "text": "Vocês trabalham com que produto?"
+        },
+        {
+          "text": "Vocês têm quais produtos?"
+        },
+        {
+          "text": "Quais os tipos de produto oferecidos pelo banco?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Saldo",
+      "examples": [
+        {
+          "text": "Qual é o meu saldo?"
+        },
+        {
+          "text": "Quanto tenho de dinheiro no banco?"
+        },
+        {
+          "text": "Queria saber se tenho saldo na minha conta?"
+        },
+        {
+          "text": "Por favor, quanto tenho disponível?"
+        },
+        {
+          "text": "Saldo por favor"
+        },
+        {
+          "text": "mano, qunto tenho ai hoje?"
+        },
+        {
+          "text": "cara, quanto tenho de cascalho ai?"
+        },
+        {
+          "text": "saldo ai no banco"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Saudacao",
+      "examples": [
+        {
+          "text": "E ai?"
+        },
+        {
+          "text": "Oi"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Bom dia"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Saudacao_formal",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Boa noite",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Boa tarde",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bom dia",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Ofensas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Babaca",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Idiota",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Burro",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Animal",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Produto",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Poupança",
+          "synonyms": [
+            "Caderneta de poupança"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Conta",
+          "synonyms": [
+            "Conta corrente",
+            "CC"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Tipo de produtos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O banco hoje trabalha com Poupança, Conta Corrente, Empréstimo pessoal e Fundos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1595938319910",
+      "conditions": "#Tipo_produto",
+      "dialog_node": "node_3_1595937645134",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não consigo te ajudar! Passando para um operador."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1595860389087",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1595940818994",
+      "previous_sibling": "response_6_1595946391383"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Até mais!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1595860389087",
+      "conditions": "$cancelar",
+      "dialog_node": "response_6_1595946391383",
+      "previous_sibling": "response_10_1595940758339"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1595860389087",
+      "variable": "$Produto",
+      "conditions": "$cont < 3",
+      "dialog_node": "slot_10_1595860610675",
+      "previous_sibling": "response_8_1595940818994"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Por favor, conta ou poupança?"
+          ],
+          "selection_policy": "sequential"
+        },
+        "generic": []
+      },
+      "parent": "node_3_1595860389087",
+      "context": {
+        "cont": "<? context['cont'] + 1 ?>"
+      },
+      "conditions": "$cont < 3",
+      "event_name": "generic",
+      "dialog_node": "handler_5_1595945113380",
+      "previous_sibling": "handler_3_1595946355266"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Ok!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1595860389087",
+      "context": {
+        "cont": 3,
+        "cancelar": true
+      },
+      "conditions": "#cancelar",
+      "event_name": "generic",
+      "dialog_node": "handler_3_1595946355266",
+      "previous_sibling": "node_1_1595947199181"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O saldo de sua conta é de R$ 55.000"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1595860389087",
+      "conditions": "$Produto == \"Conta\" && $cont < 3",
+      "dialog_node": "response_8_1595940732045",
+      "previous_sibling": "handler_5_1595945113380"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você tem R$ 1.200 na poupança"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1595860389087",
+      "conditions": "$Produto == \"Poupança\"  && $cont < 3",
+      "dialog_node": "response_10_1595940758339",
+      "previous_sibling": "response_8_1595940732045"
+    },
+    {
+      "type": "standard",
+      "title": "Zerar variáveis",
+      "parent": "node_3_1595860389087",
+      "context": {
+        "cont": 0,
+        "Produto": null,
+        "cancelar": false
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1595947199181"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "e ai, o que rola?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1595857207925",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1595858224352",
+      "previous_sibling": "response_2_1595859356039"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "@Saudacao_formal pra vc tb"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1595857207925",
+      "conditions": "@Saudacao_formal:(Bom dia)",
+      "dialog_node": "response_2_1595859356039",
+      "previous_sibling": "response_8_1595858143499"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "@Saudacao_formal pra vc tb, @Ofensas"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1595857207925",
+      "conditions": "@Saudacao_formal && @Ofensas",
+      "dialog_node": "response_8_1595858143499"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Tipo de produto",
+            "options": [
+              {
+                "label": "Conta Corrente",
+                "value": {
+                  "input": {
+                    "text": "Conta"
+                  }
+                }
+              },
+              {
+                "label": "Poupança",
+                "value": {
+                  "input": {
+                    "text": "Poupança"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_10_1595860610675",
+      "context": {},
+      "event_name": "focus",
+      "dialog_node": "handler_10_1595860610683",
+      "previous_sibling": "handler_3_1595860610683"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Por favor, preciso saber se é conta ou poupança"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1595860610675",
+      "context": {},
+      "conditions": "true",
+      "event_name": "nomatch",
+      "dialog_node": "handler_8_1595936457596",
+      "previous_sibling": "handler_10_1595860610683"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1595860610675",
+      "context": {
+        "Produto": "@Produto"
+      },
+      "conditions": "@Produto",
+      "event_name": "input",
+      "dialog_node": "handler_3_1595860610683"
+    },
+    {
+      "type": "frame",
+      "title": "Saldo",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1595947199181"
+      },
+      "conditions": "#Saldo",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1595860389087",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1595938319910",
+      "digress_out_slots": "allow_returning"
+    },
+    {
+      "type": "standard",
+      "title": "Saudação",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Saudacao",
+      "dialog_node": "node_6_1595857207925",
+      "previous_sibling": "node_3_1595860389087"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_6_1595857207925",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "folder",
+      "title": "FAQ",
+      "conditions": "",
+      "digress_in": "returns",
+      "dialog_node": "node_1_1595938319910",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "E ai, precisa do que hoje? Meu nome é botinho, e o seu?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "cont": 0
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": false,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above."
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Saldo e empréstimo",
+  "language": "pt-br",
+  "description": ""
+}
