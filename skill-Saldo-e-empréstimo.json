@@ -159,7 +159,7 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "Poupança",
+          "value": "Poupanca",
           "synonyms": [
             "Caderneta de poupança"
           ]
@@ -182,6 +182,13 @@
       "minor_version": "2018-11-08"
     }
   },
+  "webhooks": [
+    {
+      "url": "https://gama-node-red-workshop.mybluemix.net/saldo",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
   "dialog_nodes": [
     {
       "type": "standard",
@@ -300,7 +307,7 @@
           {
             "values": [
               {
-                "text": "O saldo de sua conta é de R$ 55.000"
+                "text": "O saldo de sua conta é de R$ $Resultado.SALDO"
               }
             ],
             "response_type": "text",
@@ -320,7 +327,7 @@
           {
             "values": [
               {
-                "text": "Você tem R$ 1.200 na poupança"
+                "text": "Você tem R$ $Resultado.SALDO na poupança"
               }
             ],
             "response_type": "text",
@@ -329,7 +336,7 @@
         ]
       },
       "parent": "node_3_1595860389087",
-      "conditions": "$Produto == \"Poupança\"  && $cont < 3",
+      "conditions": "$Produto == \"Poupanca\"  && $cont < 3",
       "dialog_node": "response_10_1595940758339",
       "previous_sibling": "response_8_1595940732045"
     },
@@ -469,6 +476,16 @@
     {
       "type": "frame",
       "title": "Saldo",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "tipoConta": "$Produto"
+          },
+          "result_variable": "Resultado"
+        }
+      ],
       "metadata": {
         "_customization": {
           "mcr": true
