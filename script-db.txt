@@ -1,0 +1,6 @@
+--CREATE TABLE SALDO (tipoConta char(10), saldo integer);
+
+--INSERT INTO SALDO (tipoConta,saldo) VALUES('Conta',678);
+--INSERT INTO SALDO (tipoConta,saldo) VALUES('Poupanca',45600);
+
+select * from SALDO;
