@@ -4,25 +4,25 @@
       "intent": "cancelar",
       "examples": [
         {
-          "text": "Até mais"
-        },
-        {
           "text": "Desisto"
         },
         {
-          "text": "Deixa pra lá"
+          "text": "Até mais"
         },
         {
-          "text": "Esquece"
-        },
-        {
-          "text": "Depois faço"
+          "text": "Adeus"
         },
         {
           "text": "Tchau"
         },
         {
-          "text": "Adeus"
+          "text": "Depois faço"
+        },
+        {
+          "text": "Esquece"
+        },
+        {
+          "text": "Deixa pra lá"
         }
       ],
       "description": ""
@@ -30,9 +30,6 @@
     {
       "intent": "Tipo_produto",
       "examples": [
-        {
-          "text": "Que produto eu posso ter ai?"
-        },
         {
           "text": "vcs têm crédito imobiliário?"
         },
@@ -46,7 +43,31 @@
           "text": "Vocês têm quais produtos?"
         },
         {
+          "text": "Que produto eu posso ter ai?"
+        },
+        {
           "text": "Quais os tipos de produto oferecidos pelo banco?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Endereco",
+      "examples": [
+        {
+          "text": "Como chego ai?"
+        },
+        {
+          "text": "Qual o endereço de vocês?"
+        },
+        {
+          "text": "Onde vcs ficam?"
+        },
+        {
+          "text": "Qual o local de vocês?"
+        },
+        {
+          "text": "Onde vcs ficam mesmo?"
         }
       ],
       "description": ""
@@ -55,28 +76,28 @@
       "intent": "Saldo",
       "examples": [
         {
-          "text": "Qual é o meu saldo?"
-        },
-        {
           "text": "Quanto tenho de dinheiro no banco?"
         },
         {
-          "text": "Queria saber se tenho saldo na minha conta?"
+          "text": "Qual é o meu saldo?"
         },
         {
-          "text": "Por favor, quanto tenho disponível?"
-        },
-        {
-          "text": "Saldo por favor"
-        },
-        {
-          "text": "mano, qunto tenho ai hoje?"
+          "text": "saldo ai no banco"
         },
         {
           "text": "cara, quanto tenho de cascalho ai?"
         },
         {
-          "text": "saldo ai no banco"
+          "text": "mano, qunto tenho ai hoje?"
+        },
+        {
+          "text": "Saldo por favor"
+        },
+        {
+          "text": "Por favor, quanto tenho disponível?"
+        },
+        {
+          "text": "Queria saber se tenho saldo na minha conta?"
         }
       ],
       "description": ""
@@ -84,6 +105,12 @@
     {
       "intent": "Saudacao",
       "examples": [
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Bom dia"
+        },
         {
           "text": "E ai?"
         },
@@ -95,18 +122,72 @@
         },
         {
           "text": "Boa noite"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Transferencia",
+      "examples": [
+        {
+          "text": "Quero fazer uma transferencia"
         },
         {
-          "text": "Boa tarde"
+          "text": "Poderia fazer uma transferencia para mim?"
         },
         {
-          "text": "Bom dia"
+          "text": "Preciso trasferir um dinheiro"
+        },
+        {
+          "text": "Transfere pra mim um dinheiro?"
+        },
+        {
+          "text": "Fazer transferência"
         }
       ],
       "description": ""
     }
   ],
   "entities": [
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "SimNao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Nao",
+          "synonyms": [
+            "Não",
+            "No"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sim",
+          "synonyms": [
+            "Yes",
+            "Yep",
+            "Isso",
+            "Confirmo"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
     {
       "entity": "Saudacao_formal",
       "values": [
@@ -117,12 +198,12 @@
         },
         {
           "type": "synonyms",
-          "value": "Boa tarde",
+          "value": "Bom dia",
           "synonyms": []
         },
         {
           "type": "synonyms",
-          "value": "Bom dia",
+          "value": "Boa tarde",
           "synonyms": []
         }
       ],
@@ -133,23 +214,51 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "Babaca",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Idiota",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
           "value": "Burro",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Babaca",
           "synonyms": []
         },
         {
           "type": "synonyms",
           "value": "Animal",
           "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Idiota",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Contato",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "e-mail",
+          "patterns": [
+            "/\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\\b/",
+            "[A-Za-z0-9_.-]+@([A-Za-z0-9_]+\\.)+[A-Za-z]{2,4}"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "Telefone",
+          "patterns": [
+            "[0-9]{5}-[0-9]{4}",
+            "[0-9]{9}",
+            "(\\(0xx[0-9]{2}\\) ?)?[0-9]{4}-[0-9]{4}"
+          ]
         }
       ],
       "fuzzy_match": true
@@ -190,6 +299,68 @@
     }
   ],
   "dialog_nodes": [
+    {
+      "type": "slot",
+      "parent": "node_3_1596117237422",
+      "variable": "$Contato",
+      "dialog_node": "slot_4_1596117398374"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Poderia nos passar um contato, e-mail ou telefone?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1596117398374",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1596117398383",
+      "previous_sibling": "handler_3_1596117398383"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1596117398374",
+      "context": {
+        "Contato": "@Contato"
+      },
+      "conditions": "@Contato",
+      "event_name": "input",
+      "dialog_node": "handler_3_1596117398383"
+    },
+    {
+      "type": "standard",
+      "title": "Endereço",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ficamos na Av Paulista, 1000, próximo ao metrô Trianon MASP."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.106696296024!2d-46.65390548578032!3d-23.564611167595768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7f481fd9f%3A0x9982bfde4df54830!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1sen!2sbr!4v1596121344583!5m2!1sen!2sbr\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\" aria-hidden=\"false\" tabindex=\"0\"></iframe>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1595938319910",
+      "conditions": "#Endereco",
+      "dialog_node": "node_4_1596121249087",
+      "previous_sibling": "node_3_1595937645134"
+    },
     {
       "type": "standard",
       "title": "Tipo de produtos",
@@ -399,7 +570,7 @@
           {
             "values": [
               {
-                "text": "@Saudacao_formal pra vc tb, @Ofensas"
+                "text": "@Saudacao_formal <B> pra vc tb </B>, @Ofensas"
               }
             ],
             "response_type": "text",
@@ -410,6 +581,91 @@
       "parent": "node_6_1595857207925",
       "conditions": "@Saudacao_formal && @Ofensas",
       "dialog_node": "response_8_1595858143499"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Qual o valor?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1596109999238",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1596109999250",
+      "previous_sibling": "handler_6_1596109999250"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1596109999238",
+      "context": {
+        "valor": "@sys-currency"
+      },
+      "conditions": "@sys-currency",
+      "event_name": "input",
+      "dialog_node": "handler_6_1596109999250"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1596109759070",
+      "disabled": true,
+      "conditions": "$",
+      "dialog_node": "response_5_1596111477828",
+      "previous_sibling": "node_3_1596117237422"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1596109759070",
+      "variable": "$valor",
+      "dialog_node": "slot_4_1596109999238",
+      "previous_sibling": "response_5_1596111477828"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1596109759070",
+      "variable": "$data",
+      "dialog_node": "slot_3_1596110058253",
+      "previous_sibling": "slot_4_1596109999238"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1596109759070",
+      "variable": "$SimNao",
+      "dialog_node": "slot_10_1596110447958",
+      "previous_sibling": "slot_3_1596110058253"
+    },
+    {
+      "type": "frame",
+      "title": "Pegar contato",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<? @Contato:e-mail ? \"Perfeito! Qualquer coisa mandamos um e-mail para: \" + @Contato.literal : \"Ta legal! Qualquer coisa ligamos para: \" + @Contato.literal ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1596109759070",
+      "conditions": "true",
+      "dialog_node": "node_3_1596117237422"
     },
     {
       "type": "event_handler",
@@ -474,6 +730,70 @@
       "dialog_node": "handler_3_1595860610683"
     },
     {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "OK! @sys-currency, mas para quando?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1596110058253",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1596110058256",
+      "previous_sibling": "handler_8_1596110058256"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1596110058253",
+      "context": {
+        "data": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_8_1596110058256"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Você confirma transferência de R$ $valor, para $data"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1596110447958",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1596110447960",
+      "previous_sibling": "handler_9_1596110447960"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1596110447958",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@SimNao && !slot_in_focus",
+      "event_name": "filled",
+      "dialog_node": "handler_4_1596113190947",
+      "previous_sibling": "handler_2_1596110447960"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1596110447958",
+      "context": {
+        "SimNao": "@SimNao"
+      },
+      "conditions": "@SimNao",
+      "event_name": "input",
+      "dialog_node": "handler_9_1596110447960"
+    },
+    {
       "type": "frame",
       "title": "Saldo",
       "actions": [
@@ -504,15 +824,43 @@
       "digress_out_slots": "allow_returning"
     },
     {
-      "type": "standard",
-      "title": "Saudação",
+      "type": "frame",
+      "title": "Transferência (Aqui faço transferencia de conta para conta)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<? $SimNao == \"Sim\" ? \"Estamos transferindo \" + $valor + \" em \" +  $data.reformatDateTime(\"EEEEE\")  : \"Fico à disposição\" ?> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Obrigado. <? context.clear() ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
       "metadata": {
         "_customization": {
-          "mcr": true
+          "mcr": false
         }
       },
-      "conditions": "#Saudacao",
-      "dialog_node": "node_6_1595857207925",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1596117237422"
+      },
+      "conditions": "#Transferencia",
+      "dialog_node": "node_2_1596109759070",
       "previous_sibling": "node_3_1595860389087"
     },
     {
@@ -543,9 +891,21 @@
       "disambiguation_opt_out": true
     },
     {
+      "type": "standard",
+      "title": "Saudação",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Saudacao",
+      "dialog_node": "node_6_1595857207925",
+      "previous_sibling": "node_2_1596109759070"
+    },
+    {
       "type": "folder",
       "title": "FAQ",
-      "conditions": "",
+      "conditions": "true",
       "digress_in": "returns",
       "dialog_node": "node_1_1595938319910",
       "previous_sibling": "Bem-vindo"
