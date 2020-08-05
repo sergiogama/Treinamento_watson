@@ -1,0 +1,3286 @@
+{
+  "id" : "e261bfe0-f8a5-11e9-a827-95123b186854-7",
+  "name" : "doc8.txt",
+  "createdDate" : 0,
+  "version" : 3,
+  "text" : "Empregador: Andreteza Comercio de Bebidas ME, com sede em Três Lagoas, na Rua Avenida Contorno 440, bairro Congós, CEP 90000-000, no estado SP, inscrito no CNPJ sob o nº 53.357.854/0001-96, neste ato representado pelo Pufuring Viogu, cargo vice-presidente, Carteira de Identidade nº 61715004027, CPF nº 369.009.700-28, residente e domiciliado na rua Avenida Contorno 440, bairro Jardim Paulista, CEP 129000-123, cidade Florianópolis, no estado Rio de Janeiro;\r\n\r\nEmpregado Geolpio Anze, engenheiro, viuvo, morador de São José dos Campos, com residência no bairro Conjunto Residencial Recanto dos Rouxinóis, rua Avenida João F. Abreu, s/n, no estado de Rondônia. Possui carteira de identidade número 43.763.224-6, cpf 572.831.170-91, e CTPS 111234 série 00102-SP.\r\n\r\nAs partes identificadas acima celebram entre si o presente contrato de trabalho por prazo indeterminado, regido pelas cláusulas seguintes e demais disposições legais vigentes:\r\n\r\n\r\n\r\nDAS DISPOSIÇÕES LEGAIS\r\n\r\nCláusula 1ª – O presente contrato de trabalho por prazo indeterminado tem como fundamento a Consolidação das Leis do Trabalho (CLT).\r\n\r\nDO OBJETIVO\r\n\r\nCláusula 2ª - O empregador admite aos seus serviços, na modalidade de contrato de trabalho por tempo indeterminado o empregado, na função de consultor.\r\n\r\nDO LOCAL E DAS CONDIÇÕES DE TRABALHO\r\n\r\nCláusula 3º - O local de trabalho será na filial da empresa localizada em São José dos Campos, podendo o empregador, a qualquer momento, transferir o empregado em caráter definitivo ou temporário, para outra unidade/filial/estabelecimento, em qualquer localidade deste Estado ou de outro dentro do país.\r\n\r\nDA JORNADA DE TRABALHO\r\n\r\nCláusula 4ª – O trabalho executado pelo empregado consistirá na jornada diária de 8 horas de 11:00 a 21:00, na Segunda a sexta, com intervalo para repouso/refeição, das 13:00 a 15:00, perfazendo um total de 40 horas semanais.\r\n\r\nDA REMUNERAÇÃO\r\n\r\nCláusula 5ª - O empregado receberá a quantia mensal de dois mil e trezentos reais, efetuados os devidos descontos permitidos por lei.\r\n\r\nDA VIGÊNCIA DO CONTRATO DE TRABALHO\r\n\r\nCláusula 6º - O presente contrato terá duração por prazo indeterminado, sendo assegurado às partes o direito de rescisão a qualquer momento, obrigando-se a parte que desejar rescindi-lo, comunicar a outra com aviso-prévio mínimo de 29 dias.",
+  "docLength" : 0,
+  "language" : "PT",
+  "status" : "IN_PROGRESS",
+  "modifiedDate" : 1572175037407,
+  "documentSet" : [ ],
+  "preannotation" : [ ],
+  "sentences" : [ {
+    "id" : "s0",
+    "begin" : 0,
+    "end" : 459,
+    "text" : "Empregador: Andreteza Comercio de Bebidas ME, com sede em Três Lagoas, na Rua Avenida Contorno 440, bairro Congós, CEP 90000-000, no estado SP, inscrito no CNPJ sob o nº 53.357.854/0001-96, neste ato representado pelo Pufuring Viogu, cargo vice-presidente, Carteira de Identidade nº 61715004027, CPF nº 369.009.700-28, residente e domiciliado na rua Avenida Contorno 440, bairro Jardim Paulista, CEP 129000-123, cidade Florianópolis, no estado Rio de Janeiro;",
+    "tokens" : [ {
+      "id" : "s0-t0",
+      "begin" : 0,
+      "end" : 10,
+      "text" : "Empregador",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t1",
+      "begin" : 10,
+      "end" : 11,
+      "text" : ":",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t2",
+      "begin" : 12,
+      "end" : 21,
+      "text" : "Andreteza",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t3",
+      "begin" : 22,
+      "end" : 30,
+      "text" : "Comercio",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t4",
+      "begin" : 31,
+      "end" : 33,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t5",
+      "begin" : 34,
+      "end" : 41,
+      "text" : "Bebidas",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t6",
+      "begin" : 42,
+      "end" : 44,
+      "text" : "ME",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t7",
+      "begin" : 44,
+      "end" : 45,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t8",
+      "begin" : 46,
+      "end" : 49,
+      "text" : "com",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t9",
+      "begin" : 50,
+      "end" : 54,
+      "text" : "sede",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t10",
+      "begin" : 55,
+      "end" : 57,
+      "text" : "em",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t11",
+      "begin" : 58,
+      "end" : 62,
+      "text" : "Três",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t12",
+      "begin" : 63,
+      "end" : 69,
+      "text" : "Lagoas",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t13",
+      "begin" : 69,
+      "end" : 70,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t14",
+      "begin" : 71,
+      "end" : 73,
+      "text" : "na",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t15",
+      "begin" : 74,
+      "end" : 77,
+      "text" : "Rua",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t16",
+      "begin" : 78,
+      "end" : 85,
+      "text" : "Avenida",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t17",
+      "begin" : 86,
+      "end" : 94,
+      "text" : "Contorno",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t18",
+      "begin" : 95,
+      "end" : 98,
+      "text" : "440",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t19",
+      "begin" : 98,
+      "end" : 99,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t20",
+      "begin" : 100,
+      "end" : 106,
+      "text" : "bairro",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t21",
+      "begin" : 107,
+      "end" : 113,
+      "text" : "Congós",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t22",
+      "begin" : 113,
+      "end" : 114,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t23",
+      "begin" : 115,
+      "end" : 118,
+      "text" : "CEP",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t24",
+      "begin" : 119,
+      "end" : 128,
+      "text" : "90000-000",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t25",
+      "begin" : 128,
+      "end" : 129,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t26",
+      "begin" : 130,
+      "end" : 132,
+      "text" : "no",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t27",
+      "begin" : 133,
+      "end" : 139,
+      "text" : "estado",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t28",
+      "begin" : 140,
+      "end" : 142,
+      "text" : "SP",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t29",
+      "begin" : 142,
+      "end" : 143,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t30",
+      "begin" : 144,
+      "end" : 152,
+      "text" : "inscrito",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t31",
+      "begin" : 153,
+      "end" : 155,
+      "text" : "no",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t32",
+      "begin" : 156,
+      "end" : 160,
+      "text" : "CNPJ",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t33",
+      "begin" : 161,
+      "end" : 164,
+      "text" : "sob",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t34",
+      "begin" : 165,
+      "end" : 166,
+      "text" : "o",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t35",
+      "begin" : 167,
+      "end" : 169,
+      "text" : "nº",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t36",
+      "begin" : 170,
+      "end" : 189,
+      "text" : "53.357.854/0001-96,",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t37",
+      "begin" : 190,
+      "end" : 195,
+      "text" : "neste",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t38",
+      "begin" : 196,
+      "end" : 199,
+      "text" : "ato",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t39",
+      "begin" : 200,
+      "end" : 212,
+      "text" : "representado",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t40",
+      "begin" : 213,
+      "end" : 217,
+      "text" : "pelo",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t41",
+      "begin" : 218,
+      "end" : 226,
+      "text" : "Pufuring",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t42",
+      "begin" : 227,
+      "end" : 232,
+      "text" : "Viogu",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t43",
+      "begin" : 232,
+      "end" : 233,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t44",
+      "begin" : 234,
+      "end" : 239,
+      "text" : "cargo",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t45",
+      "begin" : 240,
+      "end" : 244,
+      "text" : "vice",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t46",
+      "begin" : 244,
+      "end" : 245,
+      "text" : "-",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t47",
+      "begin" : 245,
+      "end" : 255,
+      "text" : "presidente",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t48",
+      "begin" : 255,
+      "end" : 256,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t49",
+      "begin" : 257,
+      "end" : 265,
+      "text" : "Carteira",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t50",
+      "begin" : 266,
+      "end" : 268,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t51",
+      "begin" : 269,
+      "end" : 279,
+      "text" : "Identidade",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t52",
+      "begin" : 280,
+      "end" : 282,
+      "text" : "nº",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t53",
+      "begin" : 283,
+      "end" : 294,
+      "text" : "61715004027",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t54",
+      "begin" : 294,
+      "end" : 295,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t55",
+      "begin" : 296,
+      "end" : 299,
+      "text" : "CPF",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t56",
+      "begin" : 300,
+      "end" : 302,
+      "text" : "nº",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t57",
+      "begin" : 303,
+      "end" : 317,
+      "text" : "369.009.700-28",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t58",
+      "begin" : 317,
+      "end" : 318,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t59",
+      "begin" : 319,
+      "end" : 328,
+      "text" : "residente",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t60",
+      "begin" : 329,
+      "end" : 330,
+      "text" : "e",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t61",
+      "begin" : 331,
+      "end" : 342,
+      "text" : "domiciliado",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t62",
+      "begin" : 343,
+      "end" : 345,
+      "text" : "na",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t63",
+      "begin" : 346,
+      "end" : 349,
+      "text" : "rua",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t64",
+      "begin" : 350,
+      "end" : 357,
+      "text" : "Avenida",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t65",
+      "begin" : 358,
+      "end" : 366,
+      "text" : "Contorno",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t66",
+      "begin" : 367,
+      "end" : 370,
+      "text" : "440",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t67",
+      "begin" : 370,
+      "end" : 371,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t68",
+      "begin" : 372,
+      "end" : 378,
+      "text" : "bairro",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t69",
+      "begin" : 379,
+      "end" : 385,
+      "text" : "Jardim",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t70",
+      "begin" : 386,
+      "end" : 394,
+      "text" : "Paulista",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t71",
+      "begin" : 394,
+      "end" : 395,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t72",
+      "begin" : 396,
+      "end" : 399,
+      "text" : "CEP",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t73",
+      "begin" : 400,
+      "end" : 410,
+      "text" : "129000-123",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t74",
+      "begin" : 410,
+      "end" : 411,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t75",
+      "begin" : 412,
+      "end" : 418,
+      "text" : "cidade",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t76",
+      "begin" : 419,
+      "end" : 432,
+      "text" : "Florianópolis",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t77",
+      "begin" : 432,
+      "end" : 433,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t78",
+      "begin" : 434,
+      "end" : 436,
+      "text" : "no",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t79",
+      "begin" : 437,
+      "end" : 443,
+      "text" : "estado",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t80",
+      "begin" : 444,
+      "end" : 447,
+      "text" : "Rio",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t81",
+      "begin" : 448,
+      "end" : 450,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t82",
+      "begin" : 451,
+      "end" : 458,
+      "text" : "Janeiro",
+      "whiteSpace" : false
+    }, {
+      "id" : "s0-t83",
+      "begin" : 458,
+      "end" : 459,
+      "text" : ";",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s1",
+    "begin" : 463,
+    "end" : 661,
+    "text" : "Empregado Geolpio Anze, engenheiro, viuvo, morador de São José dos Campos, com residência no bairro Conjunto Residencial Recanto dos Rouxinóis, rua Avenida João F. Abreu, s/n, no estado de Rondônia.",
+    "tokens" : [ {
+      "id" : "s1-t0",
+      "begin" : 463,
+      "end" : 472,
+      "text" : "Empregado",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t1",
+      "begin" : 473,
+      "end" : 480,
+      "text" : "Geolpio",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t2",
+      "begin" : 481,
+      "end" : 485,
+      "text" : "Anze",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t3",
+      "begin" : 485,
+      "end" : 486,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t4",
+      "begin" : 487,
+      "end" : 497,
+      "text" : "engenheiro",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t5",
+      "begin" : 497,
+      "end" : 498,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t6",
+      "begin" : 499,
+      "end" : 504,
+      "text" : "viuvo",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t7",
+      "begin" : 504,
+      "end" : 505,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t8",
+      "begin" : 506,
+      "end" : 513,
+      "text" : "morador",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t9",
+      "begin" : 514,
+      "end" : 516,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t10",
+      "begin" : 517,
+      "end" : 520,
+      "text" : "São",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t11",
+      "begin" : 521,
+      "end" : 525,
+      "text" : "José",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t12",
+      "begin" : 526,
+      "end" : 529,
+      "text" : "dos",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t13",
+      "begin" : 530,
+      "end" : 536,
+      "text" : "Campos",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t14",
+      "begin" : 536,
+      "end" : 537,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t15",
+      "begin" : 538,
+      "end" : 541,
+      "text" : "com",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t16",
+      "begin" : 542,
+      "end" : 552,
+      "text" : "residência",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t17",
+      "begin" : 553,
+      "end" : 555,
+      "text" : "no",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t18",
+      "begin" : 556,
+      "end" : 562,
+      "text" : "bairro",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t19",
+      "begin" : 563,
+      "end" : 571,
+      "text" : "Conjunto",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t20",
+      "begin" : 572,
+      "end" : 583,
+      "text" : "Residencial",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t21",
+      "begin" : 584,
+      "end" : 591,
+      "text" : "Recanto",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t22",
+      "begin" : 592,
+      "end" : 595,
+      "text" : "dos",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t23",
+      "begin" : 596,
+      "end" : 605,
+      "text" : "Rouxinóis",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t24",
+      "begin" : 605,
+      "end" : 606,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t25",
+      "begin" : 607,
+      "end" : 610,
+      "text" : "rua",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t26",
+      "begin" : 611,
+      "end" : 618,
+      "text" : "Avenida",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t27",
+      "begin" : 619,
+      "end" : 623,
+      "text" : "João",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t28",
+      "begin" : 624,
+      "end" : 626,
+      "text" : "F.",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t29",
+      "begin" : 627,
+      "end" : 632,
+      "text" : "Abreu",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t30",
+      "begin" : 632,
+      "end" : 633,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t31",
+      "begin" : 634,
+      "end" : 635,
+      "text" : "s",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t32",
+      "begin" : 635,
+      "end" : 636,
+      "text" : "/",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t33",
+      "begin" : 636,
+      "end" : 637,
+      "text" : "n",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t34",
+      "begin" : 637,
+      "end" : 638,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t35",
+      "begin" : 639,
+      "end" : 641,
+      "text" : "no",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t36",
+      "begin" : 642,
+      "end" : 648,
+      "text" : "estado",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t37",
+      "begin" : 649,
+      "end" : 651,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t38",
+      "begin" : 652,
+      "end" : 660,
+      "text" : "Rondônia",
+      "whiteSpace" : false
+    }, {
+      "id" : "s1-t39",
+      "begin" : 660,
+      "end" : 661,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s2",
+    "begin" : 662,
+    "end" : 762,
+    "text" : "Possui carteira de identidade número 43.763.224-6, cpf 572.831.170-91, e CTPS 111234 série 00102-SP.",
+    "tokens" : [ {
+      "id" : "s2-t0",
+      "begin" : 662,
+      "end" : 668,
+      "text" : "Possui",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t1",
+      "begin" : 669,
+      "end" : 677,
+      "text" : "carteira",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t2",
+      "begin" : 678,
+      "end" : 680,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t3",
+      "begin" : 681,
+      "end" : 691,
+      "text" : "identidade",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t4",
+      "begin" : 692,
+      "end" : 698,
+      "text" : "número",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t5",
+      "begin" : 699,
+      "end" : 711,
+      "text" : "43.763.224-6",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t6",
+      "begin" : 711,
+      "end" : 712,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t7",
+      "begin" : 713,
+      "end" : 716,
+      "text" : "cpf",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t8",
+      "begin" : 717,
+      "end" : 731,
+      "text" : "572.831.170-91",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t9",
+      "begin" : 731,
+      "end" : 732,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t10",
+      "begin" : 733,
+      "end" : 734,
+      "text" : "e",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t11",
+      "begin" : 735,
+      "end" : 739,
+      "text" : "CTPS",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t12",
+      "begin" : 740,
+      "end" : 746,
+      "text" : "111234",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t13",
+      "begin" : 747,
+      "end" : 752,
+      "text" : "série",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t14",
+      "begin" : 753,
+      "end" : 761,
+      "text" : "00102-SP",
+      "whiteSpace" : false
+    }, {
+      "id" : "s2-t15",
+      "begin" : 761,
+      "end" : 762,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s3",
+    "begin" : 766,
+    "end" : 941,
+    "text" : "As partes identificadas acima celebram entre si o presente contrato de trabalho por prazo indeterminado, regido pelas cláusulas seguintes e demais disposições legais vigentes:",
+    "tokens" : [ {
+      "id" : "s3-t0",
+      "begin" : 766,
+      "end" : 768,
+      "text" : "As",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t1",
+      "begin" : 769,
+      "end" : 775,
+      "text" : "partes",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t2",
+      "begin" : 776,
+      "end" : 789,
+      "text" : "identificadas",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t3",
+      "begin" : 790,
+      "end" : 795,
+      "text" : "acima",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t4",
+      "begin" : 796,
+      "end" : 804,
+      "text" : "celebram",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t5",
+      "begin" : 805,
+      "end" : 810,
+      "text" : "entre",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t6",
+      "begin" : 811,
+      "end" : 813,
+      "text" : "si",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t7",
+      "begin" : 814,
+      "end" : 815,
+      "text" : "o",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t8",
+      "begin" : 816,
+      "end" : 824,
+      "text" : "presente",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t9",
+      "begin" : 825,
+      "end" : 833,
+      "text" : "contrato",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t10",
+      "begin" : 834,
+      "end" : 836,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t11",
+      "begin" : 837,
+      "end" : 845,
+      "text" : "trabalho",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t12",
+      "begin" : 846,
+      "end" : 849,
+      "text" : "por",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t13",
+      "begin" : 850,
+      "end" : 855,
+      "text" : "prazo",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t14",
+      "begin" : 856,
+      "end" : 869,
+      "text" : "indeterminado",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t15",
+      "begin" : 869,
+      "end" : 870,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t16",
+      "begin" : 871,
+      "end" : 877,
+      "text" : "regido",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t17",
+      "begin" : 878,
+      "end" : 883,
+      "text" : "pelas",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t18",
+      "begin" : 884,
+      "end" : 893,
+      "text" : "cláusulas",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t19",
+      "begin" : 894,
+      "end" : 903,
+      "text" : "seguintes",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t20",
+      "begin" : 904,
+      "end" : 905,
+      "text" : "e",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t21",
+      "begin" : 906,
+      "end" : 912,
+      "text" : "demais",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t22",
+      "begin" : 913,
+      "end" : 924,
+      "text" : "disposições",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t23",
+      "begin" : 925,
+      "end" : 931,
+      "text" : "legais",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t24",
+      "begin" : 932,
+      "end" : 940,
+      "text" : "vigentes",
+      "whiteSpace" : false
+    }, {
+      "id" : "s3-t25",
+      "begin" : 940,
+      "end" : 941,
+      "text" : ":",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s4",
+    "begin" : 949,
+    "end" : 971,
+    "text" : "DAS DISPOSIÇÕES LEGAIS",
+    "tokens" : [ {
+      "id" : "s4-t0",
+      "begin" : 949,
+      "end" : 952,
+      "text" : "DAS",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t1",
+      "begin" : 953,
+      "end" : 964,
+      "text" : "DISPOSIÇÕES",
+      "whiteSpace" : false
+    }, {
+      "id" : "s4-t2",
+      "begin" : 965,
+      "end" : 971,
+      "text" : "LEGAIS",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s5",
+    "begin" : 975,
+    "end" : 1107,
+    "text" : "Cláusula 1ª – O presente contrato de trabalho por prazo indeterminado tem como fundamento a Consolidação das Leis do Trabalho (CLT).",
+    "tokens" : [ {
+      "id" : "s5-t0",
+      "begin" : 975,
+      "end" : 983,
+      "text" : "Cláusula",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t1",
+      "begin" : 984,
+      "end" : 986,
+      "text" : "1ª",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t2",
+      "begin" : 987,
+      "end" : 988,
+      "text" : "–",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t3",
+      "begin" : 989,
+      "end" : 990,
+      "text" : "O",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t4",
+      "begin" : 991,
+      "end" : 999,
+      "text" : "presente",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t5",
+      "begin" : 1000,
+      "end" : 1008,
+      "text" : "contrato",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t6",
+      "begin" : 1009,
+      "end" : 1011,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t7",
+      "begin" : 1012,
+      "end" : 1020,
+      "text" : "trabalho",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t8",
+      "begin" : 1021,
+      "end" : 1024,
+      "text" : "por",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t9",
+      "begin" : 1025,
+      "end" : 1030,
+      "text" : "prazo",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t10",
+      "begin" : 1031,
+      "end" : 1044,
+      "text" : "indeterminado",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t11",
+      "begin" : 1045,
+      "end" : 1048,
+      "text" : "tem",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t12",
+      "begin" : 1049,
+      "end" : 1053,
+      "text" : "como",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t13",
+      "begin" : 1054,
+      "end" : 1064,
+      "text" : "fundamento",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t14",
+      "begin" : 1065,
+      "end" : 1066,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t15",
+      "begin" : 1067,
+      "end" : 1079,
+      "text" : "Consolidação",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t16",
+      "begin" : 1080,
+      "end" : 1083,
+      "text" : "das",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t17",
+      "begin" : 1084,
+      "end" : 1088,
+      "text" : "Leis",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t18",
+      "begin" : 1089,
+      "end" : 1091,
+      "text" : "do",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t19",
+      "begin" : 1092,
+      "end" : 1100,
+      "text" : "Trabalho",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t20",
+      "begin" : 1101,
+      "end" : 1102,
+      "text" : "(",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t21",
+      "begin" : 1102,
+      "end" : 1105,
+      "text" : "CLT",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t22",
+      "begin" : 1105,
+      "end" : 1106,
+      "text" : ")",
+      "whiteSpace" : false
+    }, {
+      "id" : "s5-t23",
+      "begin" : 1106,
+      "end" : 1107,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s6",
+    "begin" : 1111,
+    "end" : 1122,
+    "text" : "DO OBJETIVO",
+    "tokens" : [ {
+      "id" : "s6-t0",
+      "begin" : 1111,
+      "end" : 1113,
+      "text" : "DO",
+      "whiteSpace" : false
+    }, {
+      "id" : "s6-t1",
+      "begin" : 1114,
+      "end" : 1122,
+      "text" : "OBJETIVO",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s7",
+    "begin" : 1126,
+    "end" : 1277,
+    "text" : "Cláusula 2ª - O empregador admite aos seus serviços, na modalidade de contrato de trabalho por tempo indeterminado o empregado, na função de consultor.",
+    "tokens" : [ {
+      "id" : "s7-t0",
+      "begin" : 1126,
+      "end" : 1134,
+      "text" : "Cláusula",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t1",
+      "begin" : 1135,
+      "end" : 1137,
+      "text" : "2ª",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t2",
+      "begin" : 1138,
+      "end" : 1139,
+      "text" : "-",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t3",
+      "begin" : 1140,
+      "end" : 1141,
+      "text" : "O",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t4",
+      "begin" : 1142,
+      "end" : 1152,
+      "text" : "empregador",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t5",
+      "begin" : 1153,
+      "end" : 1159,
+      "text" : "admite",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t6",
+      "begin" : 1160,
+      "end" : 1163,
+      "text" : "aos",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t7",
+      "begin" : 1164,
+      "end" : 1168,
+      "text" : "seus",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t8",
+      "begin" : 1169,
+      "end" : 1177,
+      "text" : "serviços",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t9",
+      "begin" : 1177,
+      "end" : 1178,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t10",
+      "begin" : 1179,
+      "end" : 1181,
+      "text" : "na",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t11",
+      "begin" : 1182,
+      "end" : 1192,
+      "text" : "modalidade",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t12",
+      "begin" : 1193,
+      "end" : 1195,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t13",
+      "begin" : 1196,
+      "end" : 1204,
+      "text" : "contrato",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t14",
+      "begin" : 1205,
+      "end" : 1207,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t15",
+      "begin" : 1208,
+      "end" : 1216,
+      "text" : "trabalho",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t16",
+      "begin" : 1217,
+      "end" : 1220,
+      "text" : "por",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t17",
+      "begin" : 1221,
+      "end" : 1226,
+      "text" : "tempo",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t18",
+      "begin" : 1227,
+      "end" : 1240,
+      "text" : "indeterminado",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t19",
+      "begin" : 1241,
+      "end" : 1242,
+      "text" : "o",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t20",
+      "begin" : 1243,
+      "end" : 1252,
+      "text" : "empregado",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t21",
+      "begin" : 1252,
+      "end" : 1253,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t22",
+      "begin" : 1254,
+      "end" : 1256,
+      "text" : "na",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t23",
+      "begin" : 1257,
+      "end" : 1263,
+      "text" : "função",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t24",
+      "begin" : 1264,
+      "end" : 1266,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t25",
+      "begin" : 1267,
+      "end" : 1276,
+      "text" : "consultor",
+      "whiteSpace" : false
+    }, {
+      "id" : "s7-t26",
+      "begin" : 1276,
+      "end" : 1277,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s8",
+    "begin" : 1281,
+    "end" : 1317,
+    "text" : "DO LOCAL E DAS CONDIÇÕES DE TRABALHO",
+    "tokens" : [ {
+      "id" : "s8-t0",
+      "begin" : 1281,
+      "end" : 1283,
+      "text" : "DO",
+      "whiteSpace" : false
+    }, {
+      "id" : "s8-t1",
+      "begin" : 1284,
+      "end" : 1289,
+      "text" : "LOCAL",
+      "whiteSpace" : false
+    }, {
+      "id" : "s8-t2",
+      "begin" : 1290,
+      "end" : 1291,
+      "text" : "E",
+      "whiteSpace" : false
+    }, {
+      "id" : "s8-t3",
+      "begin" : 1292,
+      "end" : 1295,
+      "text" : "DAS",
+      "whiteSpace" : false
+    }, {
+      "id" : "s8-t4",
+      "begin" : 1296,
+      "end" : 1305,
+      "text" : "CONDIÇÕES",
+      "whiteSpace" : false
+    }, {
+      "id" : "s8-t5",
+      "begin" : 1306,
+      "end" : 1308,
+      "text" : "DE",
+      "whiteSpace" : false
+    }, {
+      "id" : "s8-t6",
+      "begin" : 1309,
+      "end" : 1317,
+      "text" : "TRABALHO",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s9",
+    "begin" : 1321,
+    "end" : 1624,
+    "text" : "Cláusula 3º - O local de trabalho será na filial da empresa localizada em São José dos Campos, podendo o empregador, a qualquer momento, transferir o empregado em caráter definitivo ou temporário, para outra unidade/filial/estabelecimento, em qualquer localidade deste Estado ou de outro dentro do país.",
+    "tokens" : [ {
+      "id" : "s9-t0",
+      "begin" : 1321,
+      "end" : 1329,
+      "text" : "Cláusula",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t1",
+      "begin" : 1330,
+      "end" : 1332,
+      "text" : "3º",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t2",
+      "begin" : 1333,
+      "end" : 1334,
+      "text" : "-",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t3",
+      "begin" : 1335,
+      "end" : 1336,
+      "text" : "O",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t4",
+      "begin" : 1337,
+      "end" : 1342,
+      "text" : "local",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t5",
+      "begin" : 1343,
+      "end" : 1345,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t6",
+      "begin" : 1346,
+      "end" : 1354,
+      "text" : "trabalho",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t7",
+      "begin" : 1355,
+      "end" : 1359,
+      "text" : "será",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t8",
+      "begin" : 1360,
+      "end" : 1362,
+      "text" : "na",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t9",
+      "begin" : 1363,
+      "end" : 1369,
+      "text" : "filial",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t10",
+      "begin" : 1370,
+      "end" : 1372,
+      "text" : "da",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t11",
+      "begin" : 1373,
+      "end" : 1380,
+      "text" : "empresa",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t12",
+      "begin" : 1381,
+      "end" : 1391,
+      "text" : "localizada",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t13",
+      "begin" : 1392,
+      "end" : 1394,
+      "text" : "em",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t14",
+      "begin" : 1395,
+      "end" : 1398,
+      "text" : "São",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t15",
+      "begin" : 1399,
+      "end" : 1403,
+      "text" : "José",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t16",
+      "begin" : 1404,
+      "end" : 1407,
+      "text" : "dos",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t17",
+      "begin" : 1408,
+      "end" : 1414,
+      "text" : "Campos",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t18",
+      "begin" : 1414,
+      "end" : 1415,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t19",
+      "begin" : 1416,
+      "end" : 1423,
+      "text" : "podendo",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t20",
+      "begin" : 1424,
+      "end" : 1425,
+      "text" : "o",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t21",
+      "begin" : 1426,
+      "end" : 1436,
+      "text" : "empregador",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t22",
+      "begin" : 1436,
+      "end" : 1437,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t23",
+      "begin" : 1438,
+      "end" : 1439,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t24",
+      "begin" : 1440,
+      "end" : 1448,
+      "text" : "qualquer",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t25",
+      "begin" : 1449,
+      "end" : 1456,
+      "text" : "momento",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t26",
+      "begin" : 1456,
+      "end" : 1457,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t27",
+      "begin" : 1458,
+      "end" : 1468,
+      "text" : "transferir",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t28",
+      "begin" : 1469,
+      "end" : 1470,
+      "text" : "o",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t29",
+      "begin" : 1471,
+      "end" : 1480,
+      "text" : "empregado",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t30",
+      "begin" : 1481,
+      "end" : 1483,
+      "text" : "em",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t31",
+      "begin" : 1484,
+      "end" : 1491,
+      "text" : "caráter",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t32",
+      "begin" : 1492,
+      "end" : 1502,
+      "text" : "definitivo",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t33",
+      "begin" : 1503,
+      "end" : 1505,
+      "text" : "ou",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t34",
+      "begin" : 1506,
+      "end" : 1516,
+      "text" : "temporário",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t35",
+      "begin" : 1516,
+      "end" : 1517,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t36",
+      "begin" : 1518,
+      "end" : 1522,
+      "text" : "para",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t37",
+      "begin" : 1523,
+      "end" : 1528,
+      "text" : "outra",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t38",
+      "begin" : 1529,
+      "end" : 1536,
+      "text" : "unidade",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t39",
+      "begin" : 1536,
+      "end" : 1537,
+      "text" : "/",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t40",
+      "begin" : 1537,
+      "end" : 1559,
+      "text" : "filial/estabelecimento",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t41",
+      "begin" : 1559,
+      "end" : 1560,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t42",
+      "begin" : 1561,
+      "end" : 1563,
+      "text" : "em",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t43",
+      "begin" : 1564,
+      "end" : 1572,
+      "text" : "qualquer",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t44",
+      "begin" : 1573,
+      "end" : 1583,
+      "text" : "localidade",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t45",
+      "begin" : 1584,
+      "end" : 1589,
+      "text" : "deste",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t46",
+      "begin" : 1590,
+      "end" : 1596,
+      "text" : "Estado",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t47",
+      "begin" : 1597,
+      "end" : 1599,
+      "text" : "ou",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t48",
+      "begin" : 1600,
+      "end" : 1602,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t49",
+      "begin" : 1603,
+      "end" : 1608,
+      "text" : "outro",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t50",
+      "begin" : 1609,
+      "end" : 1615,
+      "text" : "dentro",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t51",
+      "begin" : 1616,
+      "end" : 1618,
+      "text" : "do",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t52",
+      "begin" : 1619,
+      "end" : 1623,
+      "text" : "país",
+      "whiteSpace" : false
+    }, {
+      "id" : "s9-t53",
+      "begin" : 1623,
+      "end" : 1624,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s10",
+    "begin" : 1628,
+    "end" : 1650,
+    "text" : "DA JORNADA DE TRABALHO",
+    "tokens" : [ {
+      "id" : "s10-t0",
+      "begin" : 1628,
+      "end" : 1630,
+      "text" : "DA",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t1",
+      "begin" : 1631,
+      "end" : 1638,
+      "text" : "JORNADA",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t2",
+      "begin" : 1639,
+      "end" : 1641,
+      "text" : "DE",
+      "whiteSpace" : false
+    }, {
+      "id" : "s10-t3",
+      "begin" : 1642,
+      "end" : 1650,
+      "text" : "TRABALHO",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s11",
+    "begin" : 1654,
+    "end" : 1879,
+    "text" : "Cláusula 4ª – O trabalho executado pelo empregado consistirá na jornada diária de 8 horas de 11:00 a 21:00, na Segunda a sexta, com intervalo para repouso/refeição, das 13:00 a 15:00, perfazendo um total de 40 horas semanais.",
+    "tokens" : [ {
+      "id" : "s11-t0",
+      "begin" : 1654,
+      "end" : 1662,
+      "text" : "Cláusula",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t1",
+      "begin" : 1663,
+      "end" : 1665,
+      "text" : "4ª",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t2",
+      "begin" : 1666,
+      "end" : 1667,
+      "text" : "–",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t3",
+      "begin" : 1668,
+      "end" : 1669,
+      "text" : "O",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t4",
+      "begin" : 1670,
+      "end" : 1678,
+      "text" : "trabalho",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t5",
+      "begin" : 1679,
+      "end" : 1688,
+      "text" : "executado",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t6",
+      "begin" : 1689,
+      "end" : 1693,
+      "text" : "pelo",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t7",
+      "begin" : 1694,
+      "end" : 1703,
+      "text" : "empregado",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t8",
+      "begin" : 1704,
+      "end" : 1714,
+      "text" : "consistirá",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t9",
+      "begin" : 1715,
+      "end" : 1717,
+      "text" : "na",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t10",
+      "begin" : 1718,
+      "end" : 1725,
+      "text" : "jornada",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t11",
+      "begin" : 1726,
+      "end" : 1732,
+      "text" : "diária",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t12",
+      "begin" : 1733,
+      "end" : 1735,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t13",
+      "begin" : 1736,
+      "end" : 1737,
+      "text" : "8",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t14",
+      "begin" : 1738,
+      "end" : 1743,
+      "text" : "horas",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t15",
+      "begin" : 1744,
+      "end" : 1746,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t16",
+      "begin" : 1747,
+      "end" : 1752,
+      "text" : "11:00",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t17",
+      "begin" : 1753,
+      "end" : 1754,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t18",
+      "begin" : 1755,
+      "end" : 1760,
+      "text" : "21:00",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t19",
+      "begin" : 1760,
+      "end" : 1761,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t20",
+      "begin" : 1762,
+      "end" : 1764,
+      "text" : "na",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t21",
+      "begin" : 1765,
+      "end" : 1772,
+      "text" : "Segunda",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t22",
+      "begin" : 1773,
+      "end" : 1774,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t23",
+      "begin" : 1775,
+      "end" : 1780,
+      "text" : "sexta",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t24",
+      "begin" : 1780,
+      "end" : 1781,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t25",
+      "begin" : 1782,
+      "end" : 1785,
+      "text" : "com",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t26",
+      "begin" : 1786,
+      "end" : 1795,
+      "text" : "intervalo",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t27",
+      "begin" : 1796,
+      "end" : 1800,
+      "text" : "para",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t28",
+      "begin" : 1801,
+      "end" : 1808,
+      "text" : "repouso",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t29",
+      "begin" : 1808,
+      "end" : 1809,
+      "text" : "/",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t30",
+      "begin" : 1809,
+      "end" : 1817,
+      "text" : "refeição",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t31",
+      "begin" : 1817,
+      "end" : 1818,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t32",
+      "begin" : 1819,
+      "end" : 1822,
+      "text" : "das",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t33",
+      "begin" : 1823,
+      "end" : 1828,
+      "text" : "13:00",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t34",
+      "begin" : 1829,
+      "end" : 1830,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t35",
+      "begin" : 1831,
+      "end" : 1836,
+      "text" : "15:00",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t36",
+      "begin" : 1836,
+      "end" : 1837,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t37",
+      "begin" : 1838,
+      "end" : 1848,
+      "text" : "perfazendo",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t38",
+      "begin" : 1849,
+      "end" : 1851,
+      "text" : "um",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t39",
+      "begin" : 1852,
+      "end" : 1857,
+      "text" : "total",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t40",
+      "begin" : 1858,
+      "end" : 1860,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t41",
+      "begin" : 1861,
+      "end" : 1863,
+      "text" : "40",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t42",
+      "begin" : 1864,
+      "end" : 1869,
+      "text" : "horas",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t43",
+      "begin" : 1870,
+      "end" : 1878,
+      "text" : "semanais",
+      "whiteSpace" : false
+    }, {
+      "id" : "s11-t44",
+      "begin" : 1878,
+      "end" : 1879,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s12",
+    "begin" : 1883,
+    "end" : 1897,
+    "text" : "DA REMUNERAÇÃO",
+    "tokens" : [ {
+      "id" : "s12-t0",
+      "begin" : 1883,
+      "end" : 1885,
+      "text" : "DA",
+      "whiteSpace" : false
+    }, {
+      "id" : "s12-t1",
+      "begin" : 1886,
+      "end" : 1897,
+      "text" : "REMUNERAÇÃO",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s13",
+    "begin" : 1901,
+    "end" : 2034,
+    "text" : "Cláusula 5ª - O empregado receberá a quantia mensal de dois mil e trezentos reais, efetuados os devidos descontos permitidos por lei.",
+    "tokens" : [ {
+      "id" : "s13-t0",
+      "begin" : 1901,
+      "end" : 1909,
+      "text" : "Cláusula",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t1",
+      "begin" : 1910,
+      "end" : 1912,
+      "text" : "5ª",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t2",
+      "begin" : 1913,
+      "end" : 1914,
+      "text" : "-",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t3",
+      "begin" : 1915,
+      "end" : 1916,
+      "text" : "O",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t4",
+      "begin" : 1917,
+      "end" : 1926,
+      "text" : "empregado",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t5",
+      "begin" : 1927,
+      "end" : 1935,
+      "text" : "receberá",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t6",
+      "begin" : 1936,
+      "end" : 1937,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t7",
+      "begin" : 1938,
+      "end" : 1945,
+      "text" : "quantia",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t8",
+      "begin" : 1946,
+      "end" : 1952,
+      "text" : "mensal",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t9",
+      "begin" : 1953,
+      "end" : 1955,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t10",
+      "begin" : 1956,
+      "end" : 1960,
+      "text" : "dois",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t11",
+      "begin" : 1961,
+      "end" : 1964,
+      "text" : "mil",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t12",
+      "begin" : 1965,
+      "end" : 1966,
+      "text" : "e",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t13",
+      "begin" : 1967,
+      "end" : 1976,
+      "text" : "trezentos",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t14",
+      "begin" : 1977,
+      "end" : 1982,
+      "text" : "reais",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t15",
+      "begin" : 1982,
+      "end" : 1983,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t16",
+      "begin" : 1984,
+      "end" : 1993,
+      "text" : "efetuados",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t17",
+      "begin" : 1994,
+      "end" : 1996,
+      "text" : "os",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t18",
+      "begin" : 1997,
+      "end" : 2004,
+      "text" : "devidos",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t19",
+      "begin" : 2005,
+      "end" : 2014,
+      "text" : "descontos",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t20",
+      "begin" : 2015,
+      "end" : 2025,
+      "text" : "permitidos",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t21",
+      "begin" : 2026,
+      "end" : 2029,
+      "text" : "por",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t22",
+      "begin" : 2030,
+      "end" : 2033,
+      "text" : "lei",
+      "whiteSpace" : false
+    }, {
+      "id" : "s13-t23",
+      "begin" : 2033,
+      "end" : 2034,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s14",
+    "begin" : 2038,
+    "end" : 2073,
+    "text" : "DA VIGÊNCIA DO CONTRATO DE TRABALHO",
+    "tokens" : [ {
+      "id" : "s14-t0",
+      "begin" : 2038,
+      "end" : 2040,
+      "text" : "DA",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t1",
+      "begin" : 2041,
+      "end" : 2049,
+      "text" : "VIGÊNCIA",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t2",
+      "begin" : 2050,
+      "end" : 2052,
+      "text" : "DO",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t3",
+      "begin" : 2053,
+      "end" : 2061,
+      "text" : "CONTRATO",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t4",
+      "begin" : 2062,
+      "end" : 2064,
+      "text" : "DE",
+      "whiteSpace" : false
+    }, {
+      "id" : "s14-t5",
+      "begin" : 2065,
+      "end" : 2073,
+      "text" : "TRABALHO",
+      "whiteSpace" : false
+    } ]
+  }, {
+    "id" : "s15",
+    "begin" : 2077,
+    "end" : 2317,
+    "text" : "Cláusula 6º - O presente contrato terá duração por prazo indeterminado, sendo assegurado às partes o direito de rescisão a qualquer momento, obrigando-se a parte que desejar rescindi-lo, comunicar a outra com aviso-prévio mínimo de 29 dias.",
+    "tokens" : [ {
+      "id" : "s15-t0",
+      "begin" : 2077,
+      "end" : 2085,
+      "text" : "Cláusula",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t1",
+      "begin" : 2086,
+      "end" : 2088,
+      "text" : "6º",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t2",
+      "begin" : 2089,
+      "end" : 2090,
+      "text" : "-",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t3",
+      "begin" : 2091,
+      "end" : 2092,
+      "text" : "O",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t4",
+      "begin" : 2093,
+      "end" : 2101,
+      "text" : "presente",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t5",
+      "begin" : 2102,
+      "end" : 2110,
+      "text" : "contrato",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t6",
+      "begin" : 2111,
+      "end" : 2115,
+      "text" : "terá",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t7",
+      "begin" : 2116,
+      "end" : 2123,
+      "text" : "duração",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t8",
+      "begin" : 2124,
+      "end" : 2127,
+      "text" : "por",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t9",
+      "begin" : 2128,
+      "end" : 2133,
+      "text" : "prazo",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t10",
+      "begin" : 2134,
+      "end" : 2147,
+      "text" : "indeterminado",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t11",
+      "begin" : 2147,
+      "end" : 2148,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t12",
+      "begin" : 2149,
+      "end" : 2154,
+      "text" : "sendo",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t13",
+      "begin" : 2155,
+      "end" : 2165,
+      "text" : "assegurado",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t14",
+      "begin" : 2166,
+      "end" : 2168,
+      "text" : "às",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t15",
+      "begin" : 2169,
+      "end" : 2175,
+      "text" : "partes",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t16",
+      "begin" : 2176,
+      "end" : 2177,
+      "text" : "o",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t17",
+      "begin" : 2178,
+      "end" : 2185,
+      "text" : "direito",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t18",
+      "begin" : 2186,
+      "end" : 2188,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t19",
+      "begin" : 2189,
+      "end" : 2197,
+      "text" : "rescisão",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t20",
+      "begin" : 2198,
+      "end" : 2199,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t21",
+      "begin" : 2200,
+      "end" : 2208,
+      "text" : "qualquer",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t22",
+      "begin" : 2209,
+      "end" : 2216,
+      "text" : "momento",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t23",
+      "begin" : 2216,
+      "end" : 2217,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t24",
+      "begin" : 2218,
+      "end" : 2230,
+      "text" : "obrigando-se",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t25",
+      "begin" : 2231,
+      "end" : 2232,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t26",
+      "begin" : 2233,
+      "end" : 2238,
+      "text" : "parte",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t27",
+      "begin" : 2239,
+      "end" : 2242,
+      "text" : "que",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t28",
+      "begin" : 2243,
+      "end" : 2250,
+      "text" : "desejar",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t29",
+      "begin" : 2251,
+      "end" : 2262,
+      "text" : "rescindi-lo",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t30",
+      "begin" : 2262,
+      "end" : 2263,
+      "text" : ",",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t31",
+      "begin" : 2264,
+      "end" : 2273,
+      "text" : "comunicar",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t32",
+      "begin" : 2274,
+      "end" : 2275,
+      "text" : "a",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t33",
+      "begin" : 2276,
+      "end" : 2281,
+      "text" : "outra",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t34",
+      "begin" : 2282,
+      "end" : 2285,
+      "text" : "com",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t35",
+      "begin" : 2286,
+      "end" : 2298,
+      "text" : "aviso-prévio",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t36",
+      "begin" : 2299,
+      "end" : 2305,
+      "text" : "mínimo",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t37",
+      "begin" : 2306,
+      "end" : 2308,
+      "text" : "de",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t38",
+      "begin" : 2309,
+      "end" : 2311,
+      "text" : "29",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t39",
+      "begin" : 2312,
+      "end" : 2316,
+      "text" : "dias",
+      "whiteSpace" : false
+    }, {
+      "id" : "s15-t40",
+      "begin" : 2316,
+      "end" : 2317,
+      "text" : ".",
+      "whiteSpace" : false
+    } ]
+  } ],
+  "mentions" : [ {
+    "id" : "s0-m1",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "EMPRESA",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "EMPRESA",
+    "begin" : 12,
+    "end" : 44,
+    "inCoref" : true
+  }, {
+    "id" : "s0-m2",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "CIDADE",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "CIDADE",
+    "begin" : 58,
+    "end" : 69,
+    "inCoref" : false
+  }, {
+    "id" : "s0-m3",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "ENDERECO",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "ENDERECO",
+    "begin" : 74,
+    "end" : 98,
+    "inCoref" : false
+  }, {
+    "id" : "s0-m4",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "BAIRRO",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "BAIRRO",
+    "begin" : 107,
+    "end" : 113,
+    "inCoref" : false
+  }, {
+    "id" : "s0-m5",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "CEP",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "CEP",
+    "begin" : 119,
+    "end" : 128,
+    "inCoref" : false
+  }, {
+    "id" : "s0-m6",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "ESTADO",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "ESTADO",
+    "begin" : 140,
+    "end" : 142,
+    "inCoref" : false
+  }, {
+    "id" : "s0-m7",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "CNPJ",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "CNPJ",
+    "begin" : 170,
+    "end" : 188,
+    "inCoref" : false
+  }, {
+    "id" : "s0-m8",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "PARTE",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "PARTE",
+    "begin" : 218,
+    "end" : 232,
+    "inCoref" : true
+  }, {
+    "id" : "s0-m9",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "PROFISSAO",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "PROFISSAO",
+    "begin" : 240,
+    "end" : 255,
+    "inCoref" : false
+  }, {
+    "id" : "s0-m10",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "RG",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "RG",
+    "begin" : 283,
+    "end" : 294,
+    "inCoref" : false
+  }, {
+    "id" : "s0-m11",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "CPF",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "CPF",
+    "begin" : 303,
+    "end" : 317,
+    "inCoref" : false
+  }, {
+    "id" : "s0-m12",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "ENDERECO",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "ENDERECO",
+    "begin" : 350,
+    "end" : 370,
+    "inCoref" : false
+  }, {
+    "id" : "s0-m13",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "BAIRRO",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "BAIRRO",
+    "begin" : 379,
+    "end" : 394,
+    "inCoref" : false
+  }, {
+    "id" : "s0-m14",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "CEP",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "CEP",
+    "begin" : 400,
+    "end" : 410,
+    "inCoref" : false
+  }, {
+    "id" : "s0-m15",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "CIDADE",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "CIDADE",
+    "begin" : 419,
+    "end" : 432,
+    "inCoref" : false
+  }, {
+    "id" : "s0-m16",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "ESTADO",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "ESTADO",
+    "begin" : 444,
+    "end" : 458,
+    "inCoref" : false
+  }, {
+    "id" : "s1-m1",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "PARTE",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "PARTE",
+    "begin" : 473,
+    "end" : 485,
+    "inCoref" : true
+  }, {
+    "id" : "s1-m2",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "PROFISSAO",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "PROFISSAO",
+    "begin" : 487,
+    "end" : 497,
+    "inCoref" : false
+  }, {
+    "id" : "s1-m3",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "ESTADO_CIVIL",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "ESTADO_CIVIL",
+    "begin" : 499,
+    "end" : 504,
+    "inCoref" : false
+  }, {
+    "id" : "s1-m4",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "CIDADE",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "CIDADE",
+    "begin" : 517,
+    "end" : 536,
+    "inCoref" : false
+  }, {
+    "id" : "s1-m5",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "BAIRRO",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "BAIRRO",
+    "begin" : 563,
+    "end" : 605,
+    "inCoref" : false
+  }, {
+    "id" : "s1-m6",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "ENDERECO",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "ENDERECO",
+    "begin" : 611,
+    "end" : 637,
+    "inCoref" : false
+  }, {
+    "id" : "s1-m7",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "ESTADO",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "ESTADO",
+    "begin" : 652,
+    "end" : 660,
+    "inCoref" : false
+  }, {
+    "id" : "s2-m5",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "PARTE",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "PARTE",
+    "begin" : 662,
+    "end" : 668,
+    "inCoref" : true
+  }, {
+    "id" : "s2-m1",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "RG",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "RG",
+    "begin" : 699,
+    "end" : 711,
+    "inCoref" : false
+  }, {
+    "id" : "s2-m2",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "CPF",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "CPF",
+    "begin" : 717,
+    "end" : 731,
+    "inCoref" : false
+  }, {
+    "id" : "s2-m3",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "CTPS",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "CTPS",
+    "begin" : 740,
+    "end" : 746,
+    "inCoref" : false
+  }, {
+    "id" : "s2-m4",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "CTPS",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "CTPS",
+    "begin" : 753,
+    "end" : 761,
+    "inCoref" : false
+  }, {
+    "id" : "s7-m1",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "PARTE",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "PARTE",
+    "begin" : 1142,
+    "end" : 1152,
+    "inCoref" : true
+  }, {
+    "id" : "s7-m2",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "PARTE",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "PARTE",
+    "begin" : 1243,
+    "end" : 1252,
+    "inCoref" : true
+  }, {
+    "id" : "s7-m3",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "PROFISSAO",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "PROFISSAO",
+    "begin" : 1267,
+    "end" : 1276,
+    "inCoref" : false
+  }, {
+    "id" : "s9-m1",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "EMPRESA",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "EMPRESA",
+    "begin" : 1363,
+    "end" : 1369,
+    "inCoref" : true
+  }, {
+    "id" : "s9-m3",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "CIDADE",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "CIDADE",
+    "begin" : 1395,
+    "end" : 1414,
+    "inCoref" : false
+  }, {
+    "id" : "s9-m4",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "PARTE",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "PARTE",
+    "begin" : 1426,
+    "end" : 1436,
+    "inCoref" : true
+  }, {
+    "id" : "s9-m5",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "PARTE",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "PARTE",
+    "begin" : 1471,
+    "end" : 1480,
+    "inCoref" : true
+  }, {
+    "id" : "s9-m6",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "EMPRESA",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "EMPRESA",
+    "begin" : 1523,
+    "end" : 1528,
+    "inCoref" : true
+  }, {
+    "id" : "s11-m1",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "PARTE",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "PARTE",
+    "begin" : 1694,
+    "end" : 1703,
+    "inCoref" : true
+  }, {
+    "id" : "s11-m2",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "CARGA_HORARIA",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "CARGA_HORARIA",
+    "begin" : 1718,
+    "end" : 1760,
+    "inCoref" : false
+  }, {
+    "id" : "s11-m3",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "CARGA_HORARIA",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "CARGA_HORARIA",
+    "begin" : 1765,
+    "end" : 1780,
+    "inCoref" : false
+  }, {
+    "id" : "s11-m5",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "INTERVALO",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "INTERVALO",
+    "begin" : 1823,
+    "end" : 1836,
+    "inCoref" : false
+  }, {
+    "id" : "s11-m4",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "CARGA_HORARIA",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "CARGA_HORARIA",
+    "begin" : 1861,
+    "end" : 1878,
+    "inCoref" : false
+  }, {
+    "id" : "s13-m1",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "PARTE",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "PARTE",
+    "begin" : 1917,
+    "end" : 1926,
+    "inCoref" : true
+  }, {
+    "id" : "s13-m3",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "FREQ_SALARIO",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "FREQ_SALARIO",
+    "begin" : 1946,
+    "end" : 1952,
+    "inCoref" : false
+  }, {
+    "id" : "s13-m2",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "SALARIO",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "SALARIO",
+    "begin" : 1956,
+    "end" : 1982,
+    "inCoref" : false
+  }, {
+    "id" : "s15-m2",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "PARTE",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "PARTE",
+    "begin" : 2233,
+    "end" : 2238,
+    "inCoref" : false
+  }, {
+    "id" : "s15-m3",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "PARTE",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "PARTE",
+    "begin" : 2276,
+    "end" : 2281,
+    "inCoref" : false
+  }, {
+    "id" : "s15-m1",
+    "properties" : {
+      "SIRE_MENTION_ROLE" : "PRAZO_DE_AVISO_PREVIO",
+      "SIRE_ENTITY_SUBTYPE" : "NONE",
+      "SIRE_MENTION_TYPE" : "NONE",
+      "SIRE_MENTION_CLASS" : "SPC"
+    },
+    "type" : "PRAZO_DE_AVISO_PREVIO",
+    "begin" : 2309,
+    "end" : 2316,
+    "inCoref" : false
+  } ],
+  "relations" : [ {
+    "id" : "s0-r1",
+    "properties" : { },
+    "type" : "localizadaEm",
+    "args" : [ "s0-m1", "s0-m2" ]
+  }, {
+    "id" : "s0-r2",
+    "properties" : { },
+    "type" : "localizadaEm",
+    "args" : [ "s0-m1", "s0-m3" ]
+  }, {
+    "id" : "s0-r3",
+    "properties" : { },
+    "type" : "localizadaEm",
+    "args" : [ "s0-m1", "s0-m4" ]
+  }, {
+    "id" : "s0-r4",
+    "properties" : { },
+    "type" : "localizadaEm",
+    "args" : [ "s0-m1", "s0-m6" ]
+  }, {
+    "id" : "s0-r5",
+    "properties" : { },
+    "type" : "localizadaEm",
+    "args" : [ "s0-m1", "s0-m5" ]
+  }, {
+    "id" : "s0-r6",
+    "properties" : { },
+    "type" : "cnpjDe",
+    "args" : [ "s0-m7", "s0-m1" ]
+  }, {
+    "id" : "s0-r7",
+    "properties" : { },
+    "type" : "representa",
+    "args" : [ "s0-m8", "s0-m1" ]
+  }, {
+    "id" : "s0-r8",
+    "properties" : { },
+    "type" : "profissaoDe",
+    "args" : [ "s0-m9", "s0-m8" ]
+  }, {
+    "id" : "s0-r9",
+    "properties" : { },
+    "type" : "documentoDe",
+    "args" : [ "s0-m10", "s0-m8" ]
+  }, {
+    "id" : "s0-r10",
+    "properties" : { },
+    "type" : "documentoDe",
+    "args" : [ "s0-m11", "s0-m8" ]
+  }, {
+    "id" : "s0-r11",
+    "properties" : { },
+    "type" : "residenteDe",
+    "args" : [ "s0-m8", "s0-m12" ]
+  }, {
+    "id" : "s0-r12",
+    "properties" : { },
+    "type" : "residenteDe",
+    "args" : [ "s0-m8", "s0-m13" ]
+  }, {
+    "id" : "s0-r13",
+    "properties" : { },
+    "type" : "residenteDe",
+    "args" : [ "s0-m8", "s0-m14" ]
+  }, {
+    "id" : "s0-r14",
+    "properties" : { },
+    "type" : "residenteDe",
+    "args" : [ "s0-m8", "s0-m15" ]
+  }, {
+    "id" : "s0-r15",
+    "properties" : { },
+    "type" : "residenteDe",
+    "args" : [ "s0-m8", "s0-m16" ]
+  }, {
+    "id" : "s1-r1",
+    "properties" : { },
+    "type" : "profissaoDe",
+    "args" : [ "s1-m2", "s1-m1" ]
+  }, {
+    "id" : "s1-r2",
+    "properties" : { },
+    "type" : "situacaoCivilDe",
+    "args" : [ "s1-m3", "s1-m1" ]
+  }, {
+    "id" : "s1-r3",
+    "properties" : { },
+    "type" : "residenteDe",
+    "args" : [ "s1-m1", "s1-m4" ]
+  }, {
+    "id" : "s1-r4",
+    "properties" : { },
+    "type" : "residenteDe",
+    "args" : [ "s1-m1", "s1-m5" ]
+  }, {
+    "id" : "s1-r5",
+    "properties" : { },
+    "type" : "residenteDe",
+    "args" : [ "s1-m1", "s1-m6" ]
+  }, {
+    "id" : "s1-r6",
+    "properties" : { },
+    "type" : "residenteDe",
+    "args" : [ "s1-m1", "s1-m7" ]
+  }, {
+    "id" : "s2-r1",
+    "properties" : { },
+    "type" : "documentoDe",
+    "args" : [ "s2-m1", "s2-m5" ]
+  }, {
+    "id" : "s2-r2",
+    "properties" : { },
+    "type" : "documentoDe",
+    "args" : [ "s2-m2", "s2-m5" ]
+  }, {
+    "id" : "s2-r3",
+    "properties" : { },
+    "type" : "documentoDe",
+    "args" : [ "s2-m3", "s2-m5" ]
+  }, {
+    "id" : "s2-r4",
+    "properties" : { },
+    "type" : "documentoDe",
+    "args" : [ "s2-m4", "s2-m5" ]
+  }, {
+    "id" : "s7-r1",
+    "properties" : { },
+    "type" : "profissaoDe",
+    "args" : [ "s7-m3", "s7-m2" ]
+  }, {
+    "id" : "s9-r1",
+    "properties" : { },
+    "type" : "localizadaEm",
+    "args" : [ "s9-m1", "s9-m3" ]
+  }, {
+    "id" : "s9-r2",
+    "properties" : { },
+    "type" : "representa",
+    "args" : [ "s9-m4", "s9-m1" ]
+  }, {
+    "id" : "s9-r3",
+    "properties" : { },
+    "type" : "empregadoDe",
+    "args" : [ "s9-m5", "s9-m6" ]
+  }, {
+    "id" : "s9-r4",
+    "properties" : { },
+    "type" : "empregadoDe",
+    "args" : [ "s9-m5", "s9-m1" ]
+  }, {
+    "id" : "s9-r5",
+    "properties" : { },
+    "type" : "representa",
+    "args" : [ "s9-m4", "s9-m6" ]
+  }, {
+    "id" : "s9-r6",
+    "properties" : { },
+    "type" : "localizadaEm",
+    "args" : [ "s9-m6", "s9-m3" ]
+  }, {
+    "id" : "s13-r1",
+    "properties" : { },
+    "type" : "pagamento",
+    "args" : [ "s13-m2", "s13-m3" ]
+  } ],
+  "corefs" : [ {
+    "id" : "c2",
+    "properties" : { },
+    "mentions" : [ "s9-m6", "s9-m1", "s0-m1" ]
+  }, {
+    "id" : "c4",
+    "properties" : { },
+    "mentions" : [ "s0-m8", "s7-m1", "s9-m4" ]
+  }, {
+    "id" : "c5",
+    "properties" : { },
+    "mentions" : [ "s13-m1", "s11-m1", "s7-m2", "s9-m5", "s2-m5", "s1-m1" ]
+  } ],
+  "typeResolved" : true,
+  "userResolved" : false
+}
