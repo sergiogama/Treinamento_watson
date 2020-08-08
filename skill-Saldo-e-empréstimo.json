@@ -31,10 +31,10 @@
       "intent": "Tipo_produto",
       "examples": [
         {
-          "text": "vcs têm crédito imobiliário?"
+          "text": "O banco tem Empréstimo Pessoal?"
         },
         {
-          "text": "O banco tem empréstimo pessoal?"
+          "text": "vcs têm crédito imobiliário?"
         },
         {
           "text": "Vocês trabalham com que produto?"
@@ -293,7 +293,7 @@
   },
   "webhooks": [
     {
-      "url": "https://gama-node-red-workshop.mybluemix.net/saldo",
+      "url": "https://eu-de.functions.appdomain.cloud/api/v1/web/mwsadows%40us.ibm.com_dev-eu/default/GAMA-Discovery-Workshop.json",
       "name": "main_webhook",
       "headers": []
     }
@@ -330,57 +330,6 @@
       "conditions": "@Contato",
       "event_name": "input",
       "dialog_node": "handler_3_1596117398383"
-    },
-    {
-      "type": "standard",
-      "title": "Endereço",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Ficamos na Av Paulista, 1000, próximo ao metrô Trianon MASP."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "values": [
-              {
-                "text": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.106696296024!2d-46.65390548578032!3d-23.564611167595768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7f481fd9f%3A0x9982bfde4df54830!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1sen!2sbr!4v1596121344583!5m2!1sen!2sbr\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\" aria-hidden=\"false\" tabindex=\"0\"></iframe>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1595938319910",
-      "conditions": "#Endereco",
-      "dialog_node": "node_4_1596121249087",
-      "previous_sibling": "node_3_1595937645134"
-    },
-    {
-      "type": "standard",
-      "title": "Tipo de produtos",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "O banco hoje trabalha com Poupança, Conta Corrente, Empréstimo pessoal e Fundos."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1595938319910",
-      "conditions": "#Tipo_produto",
-      "dialog_node": "node_3_1595937645134",
-      "digress_out": "allow_all"
     },
     {
       "type": "response_condition",
@@ -550,7 +499,16 @@
           {
             "values": [
               {
-                "text": "@Saudacao_formal pra vc tb"
+                "text": "@Saudacao_formal pra você também"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Como posso te ajudar?"
               }
             ],
             "response_type": "text",
@@ -559,7 +517,7 @@
         ]
       },
       "parent": "node_6_1595857207925",
-      "conditions": "@Saudacao_formal:(Bom dia)",
+      "conditions": "@Saudacao_formal",
       "dialog_node": "response_2_1595859356039",
       "previous_sibling": "response_8_1595858143499"
     },
@@ -607,6 +565,40 @@
       "conditions": "@sys-currency",
       "event_name": "input",
       "dialog_node": "handler_6_1596109999250"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Ops! Algo deu errado."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Em outros casos",
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1596929347886",
+      "previous_sibling": "response_4_1596929346310"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$Resultado"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Em outros casos",
+      "conditions": "$Resultado",
+      "dialog_node": "response_4_1596929346310"
     },
     {
       "type": "response_condition",
@@ -794,34 +786,35 @@
       "dialog_node": "handler_9_1596110447960"
     },
     {
-      "type": "frame",
-      "title": "Saldo",
-      "actions": [
-        {
-          "name": "main_webhook",
-          "type": "webhook",
-          "parameters": {
-            "tipoConta": "$Produto"
+      "type": "standard",
+      "title": "Endereço",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ficamos na Av Paulista, 1000, próximo ao metrô Trianon MASP."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
           },
-          "result_variable": "Resultado"
-        }
-      ],
-      "metadata": {
-        "_customization": {
-          "mcr": true
-        }
+          {
+            "values": [
+              {
+                "text": "https://goo.gl/maps/xnn1ahkgQ46eRJXq9"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
       },
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "condition",
-        "dialog_node": "node_1_1595947199181"
-      },
-      "conditions": "#Saldo",
-      "digress_in": "does_not_return",
-      "dialog_node": "node_3_1595860389087",
+      "conditions": "#Endereco",
+      "digress_in": "returns",
+      "dialog_node": "node_4_1596121249087",
       "digress_out": "allow_all",
-      "previous_sibling": "node_1_1595938319910",
-      "digress_out_slots": "allow_returning"
+      "previous_sibling": "node_3_1595937645134"
     },
     {
       "type": "frame",
@@ -866,24 +859,21 @@
     {
       "type": "standard",
       "title": "Em outros casos",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Eu não entendi. Você pode tentar reformular a frase."
-              },
-              {
-                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
-              },
-              {
-                "text": "Eu não entendi o sentido."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "random"
-          }
-        ]
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "acao": "WD",
+            "query": "<? input.text ?>"
+          },
+          "result_variable": "Resultado"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
       },
       "conditions": "anything_else",
       "dialog_node": "Em outros casos",
@@ -899,15 +889,62 @@
         }
       },
       "conditions": "#Saudacao",
+      "digress_in": "returns",
       "dialog_node": "node_6_1595857207925",
+      "digress_out": "allow_all",
       "previous_sibling": "node_2_1596109759070"
     },
     {
-      "type": "folder",
-      "title": "FAQ",
-      "conditions": "true",
+      "type": "frame",
+      "title": "Saldo",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "acao": "SALDO",
+            "tipoConta": "$Produto"
+          },
+          "result_variable": "Resultado"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1595947199181"
+      },
+      "conditions": "#Saldo",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1595860389087",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_4_1596121249087",
+      "digress_out_slots": "allow_returning"
+    },
+    {
+      "type": "standard",
+      "title": "Tipo de produtos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O banco hoje trabalha com Poupança, Conta Corrente, Empréstimo pessoal e Fundos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Tipo_produto",
       "digress_in": "returns",
-      "dialog_node": "node_1_1595938319910",
+      "dialog_node": "node_3_1595937645134",
+      "digress_out": "allow_all",
       "previous_sibling": "Bem-vindo"
     },
     {
