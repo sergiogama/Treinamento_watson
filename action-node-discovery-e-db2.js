@@ -1,3 +1,5 @@
+var ibmdb = require('ibm_db');
+
 const DiscoveryV1 = require('watson-developer-cloud/discovery/v1');
 const extend = require('extend');
 const vcap = require('vcap_services');
@@ -5,11 +7,11 @@ const vcap = require('vcap_services');
 function main(params) {
     if(params.acao == "WD")
     {
-        params.iam_apikey = "Khl8jD-x85JpVOLJmmhsKkjHJRJJ4-Xko4KaKsT_Ltgn";
+        params.iam_apikey = "<API_KEY>";
         params.version = "2020-08-06";
         params.environment_id = "6e1035a5-5b53-481a-a6dc-85cfd8e5036c";
         params.collection_id = "df1421cd-5f82-4545-b299-68cdfcda34b5";
-        //params.query = "Programador";
+        // params.query must be sent
         return new Promise((resolve, reject) => {
         const _params = vcap.getCredentialsFromServiceBind(params, 'discovery');
         _params.headers = extend(
@@ -42,11 +44,22 @@ function main(params) {
     }
     if(params.acao == "SALDO")
     {
-        if(params.tipoConta == "Conta")
-            return {"SALDO": 222};
-        else
-            return {"SALDO": 444};
+        
+        var connString = "DRIVER={DB2};"
+            + "DATABASE=BLUDB;"
+            + "UID=bwc81435;"
+            + "PWD=<password>;"
+            + "HOSTNAME=dashdb-txn-sbox-yp-dal09-10.services.dal.bluemix.net;"
+            + "port=50000";
+            
+        const conn = ibmdb.openSync(connString); 
+        
+        data = conn.querySync("SELECT saldo FROM SALDO WHERE tipoConta = '" + params.tipoConta + "' LIMIT 1;");
+        
+        return {"SALDO":data[0].SALDO };
+
+        conn.close();
+
     }
+
 }
-global.main = main;
-module.exports.test = main;
