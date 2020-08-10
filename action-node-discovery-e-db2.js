@@ -13,7 +13,7 @@ const vcap = require('vcap_services');
 function main(params) {
     if(params.acao == "WD")
     {
-        params.iam_apikey = "Khl8jD-x85JpVOLJmmhsKkjHJRJJ4-Xko4KaKsT_Ltgn";
+        params.iam_apikey = "<API_KEY>";
         params.version = "2020-08-06";
         params.environment_id = "6e1035a5-5b53-481a-a6dc-85cfd8e5036c";
         params.collection_id = "df1421cd-5f82-4545-b299-68cdfcda34b5";
@@ -54,7 +54,7 @@ function main(params) {
         var connString = "DRIVER={DB2};"
             + "DATABASE=BLUDB;"
             + "UID=bwc81435;"
-            + "PWD=vhnfmn2c2td8s-bn;"
+            + "PWD=<PASSWORD>;"
             + "HOSTNAME=dashdb-txn-sbox-yp-dal09-10.services.dal.bluemix.net;"
             + "port=50000";
             
